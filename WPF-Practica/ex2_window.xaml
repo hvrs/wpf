@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_Practica.ex2_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Practica"
+        mc:Ignorable="d"
+        Title="ex2_window" Height="322" Width="661">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="32,24,0,0" Text="Дана строка. Если она представляет собой запись целого числа, то вывести 1; если вещественного (с дробной частью), то вывести 2; если строку нельзя преобразовать в число, то вывести 0." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Строка:" HorizontalAlignment="Left" Margin="32,107,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="tb_numb" HorizontalAlignment="Left" Margin="114,114,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="272" Height="24"/>
+        <Button x:Name="btn_start" Content="Рассчет" HorizontalAlignment="Left" Margin="84,209,0,0" VerticalAlignment="Top" Height="33" Width="97" Click="btn_start_Click"/>
+        <Button x:Name="btn_back" Content="Назад" HorizontalAlignment="Left" Margin="214,209,0,0" VerticalAlignment="Top" Height="33" Width="97" Click="btn_back_Click"/>
+        <Label x:Name="lbl_info" Content="" HorizontalAlignment="Left" Margin="220,153,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>

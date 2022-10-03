@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_Practica.ex3_windows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Practica"
+        mc:Ignorable="d"
+        Title="ex3_windows" Height="450" Width="800">
+    <Grid>
+        <TextBlock FontSize="16" HorizontalAlignment="Center" >
+            Найти в массиве все числа, составленные из одних и тех же цифр
+        </TextBlock>
+        <Button x:Name="btn_start" Content="Старт" HorizontalAlignment="Left" Margin="152,346,0,0" VerticalAlignment="Top" Height="37" Width="99" Click="btn_start_Click"/>
+        <Button x:Name="btn_back" Content="Назад" HorizontalAlignment="Left" Margin="544,346,0,0" VerticalAlignment="Top" Height="37" Width="99" Click="btn_back_Click"/>
+        <Label x:Name="lbl_info" Content="" HorizontalAlignment="Left" Margin="391,315,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.581,0.521"/>
+
+
+    </Grid>
+</Window>
