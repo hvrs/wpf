@@ -20,6 +20,18 @@ namespace WPF_Practica
         public ex4_window()
         {
             InitializeComponent();
+            
+            
+        }
+
+        private void btn_back_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_start_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

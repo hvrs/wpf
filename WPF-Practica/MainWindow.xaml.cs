@@ -54,5 +54,13 @@ namespace WPF_Practica
             ex4.ShowDialog();
             this.Close();
         }
+
+        private void btn_ex5_Click(object sender, RoutedEventArgs e)
+        {
+            ex5_window ex5 = new ex5_window();
+            this.Hide();
+            ex5.ShowDialog();
+            this.Close();
+        }
     }
 }

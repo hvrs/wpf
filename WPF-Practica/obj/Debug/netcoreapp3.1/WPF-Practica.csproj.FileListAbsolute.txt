@@ -24,3 +24,7 @@ G:\МДК.01.01\WPF-Practica\WPF-Practica\obj\Debug\netcoreapp3.1\ex2_window.g.c
 G:\МДК.01.01\WPF-Practica\WPF-Practica\obj\Debug\netcoreapp3.1\ex2_window.baml
 G:\МДК.01.01\WPF-Practica\WPF-Practica\obj\Debug\netcoreapp3.1\ex3_windows.g.cs
 G:\МДК.01.01\WPF-Practica\WPF-Practica\obj\Debug\netcoreapp3.1\ex3_windows.baml
+G:\МДК.01.01\WPF-Practica\WPF-Practica\obj\Debug\netcoreapp3.1\ex4_window.g.cs
+G:\МДК.01.01\WPF-Practica\WPF-Practica\obj\Debug\netcoreapp3.1\ex5_window.g.cs
+G:\МДК.01.01\WPF-Practica\WPF-Practica\obj\Debug\netcoreapp3.1\ex4_window.baml
+G:\МДК.01.01\WPF-Practica\WPF-Practica\obj\Debug\netcoreapp3.1\ex5_window.baml

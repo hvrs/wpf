@@ -12,7 +12,7 @@
         <Button x:Name="btn_ex2" Content="Задание 2" HorizontalAlignment="Left" Margin="206,326,0,0" VerticalAlignment="Top" Height="47" Width="110" Click="btn_ex2_Click"/>
         <Button x:Name="btn_ex3" Content="Задание 3" HorizontalAlignment="Left" Margin="360,326,0,0" VerticalAlignment="Top" Height="47" Width="110" Click="btn_ex3_Click"/>
         <Button x:Name="btn_ex4" Content="Задание 4" HorizontalAlignment="Left" Margin="507,326,0,0" VerticalAlignment="Top" Height="47" Width="110" Click="btn_ex4_Click"/>
-        <Button x:Name="btn_ex5" Content="Задание 5" HorizontalAlignment="Left" Margin="658,326,0,0" VerticalAlignment="Top" Height="47" Width="110"/>
+        <Button x:Name="btn_ex5" Content="Задание 5" HorizontalAlignment="Left" Margin="658,326,0,0" VerticalAlignment="Top" Height="47" Width="110" Click="btn_ex5_Click"/>
     </Grid>
 
 

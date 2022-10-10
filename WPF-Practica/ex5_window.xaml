@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Practica"
         mc:Ignorable="d"
-        Title="ex5_window" Height="450" Width="800">
-    <Grid>
-        
+        Title="ex5_window" Height="316" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" Text="Сгенерировать массив размером M столбцов и N строк, содержащий числа от -10 до 10. Отобразить его пользователю. Отсортировать элементы в нем по возрастанию и по убыванию. Вывести результаты сортировки в двух таблицах. Найти максимальный и минимальный элементы массива. " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_M" HorizontalAlignment="Left" Margin="82,90,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="tb_N" HorizontalAlignment="Left" Margin="82,125,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <Label Content="Столбцы" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top"/>
+        <Label Content="Строки" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_start" Content="Начать" HorizontalAlignment="Left" Margin="172,217,0,0" VerticalAlignment="Top" Height="28" Width="78" Click="btn_start_Click"/>
+        <Button x:Name="btn_exit" Content="Назад" HorizontalAlignment="Left" Margin="541,217,0,0" VerticalAlignment="Top" Height="28" Width="78" Click="btn_exit_Click"/>
+        <DataGrid Margin="299,68,20,125"/>
+
+
     </Grid>
 </Window>

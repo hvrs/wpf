@@ -29,5 +29,56 @@ namespace WPF_Practica
             mainWindow.ShowDialog();
             this.Close();
         }
+
+        private void btn_start_Click(object sender, RoutedEventArgs e)
+        {
+            int M = 0;
+            int N = 0;
+            Random random = new Random();
+            try
+            {
+                M = int.Parse(tb_M.Text);
+                N = int.Parse(tb_N.Text);
+                if (M < 0 || N < 0)
+                {
+                    MessageBox.Show("Введено отрицательное число");
+                    return;
+                }               
+                
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Введено неверное значение");
+            }
+
+            int[,] array = new int[M, N];
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    array[i, j] = random.Next(-11, 11);
+                }
+            }          
+            array = sortArray(array, N, M);
+            int min = array[0, 0];
+            int max = array[M - 1, N - 1];
+
+        }
+       private int [,] sortArray(int[,] arr, int N, int M)
+        {
+            for (int i = N * M - 1; i > 0; i--)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    if (arr[j / M, j % M] > arr[i / M, i % M])
+                    {
+                        int x = arr[j / M, j % M];
+                        arr[j / M, j % M] = arr[i / M, i % M];
+                        arr[i / M, i % M] = x;
+                    }
+                }
+            }
+            return arr;
+        }
     }
 }
