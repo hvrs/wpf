@@ -13,6 +13,12 @@
     <Compile Update="ex3_windows.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ex4_window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ex5_window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="window_ex1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,6 +28,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ex3_windows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ex4_window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ex5_window.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

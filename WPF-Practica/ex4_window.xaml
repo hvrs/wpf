@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="ex4_window" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btn_start" Content="Старт" HorizontalAlignment="Left" Margin="152,346,0,0" VerticalAlignment="Top" Height="37" Width="99" Click="btn_start_Click"/>
+        <Button x:Name="btn_back" Content="Назад" HorizontalAlignment="Left" Margin="544,346,0,0" VerticalAlignment="Top" Height="37" Width="99" Click="btn_back_Click"/>
+
     </Grid>
 </Window>

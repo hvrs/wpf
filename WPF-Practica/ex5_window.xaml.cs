@@ -21,5 +21,13 @@ namespace WPF_Practica
         {
             InitializeComponent();
         }
+
+        private void btn_exit_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            this.Hide();
+            mainWindow.ShowDialog();
+            this.Close();
+        }
     }
 }

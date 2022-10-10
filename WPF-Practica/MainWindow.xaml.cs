@@ -49,7 +49,10 @@ namespace WPF_Practica
 
         private void btn_ex4_Click(object sender, RoutedEventArgs e)
         {
-
+            ex4_window ex4 = new ex4_window();
+            this.Hide();
+            ex4.ShowDialog();
+            this.Close();
         }
     }
 }
