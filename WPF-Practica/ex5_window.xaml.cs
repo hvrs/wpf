@@ -80,5 +80,10 @@ namespace WPF_Practica
             }
             return arr;
         }
+
+        private void dg_table2_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
