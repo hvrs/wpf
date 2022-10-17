@@ -29,7 +29,43 @@ namespace WPF_Practica
 
         private void btn_start_Click(object sender, RoutedEventArgs e)
         {
+            int M = int.Parse(tb_N.Text);
+            int N = int.Parse(tb_M.Text);
+            int[] array = new int[M + N];
+            Random random = new Random();
+            for (int i = 0; i <M; i++)//заполнение первой части
+            {
+                array[i] = random.Next(0,15);
+                lbl_1st.Content += $" {array[i]}";
+            }
+            for (int i = M; i < N+M; i++)//вторая часть
+            {
+                array[i] = random.Next(0,15);
+                lbl_nd.Content += $" {array[i]}";
+            }
+            for (int i = 0; i < N+M; i++)
+            {
+                lbl_fullarray.Content += $" {array[i]}";
+            }
 
+            int k = M + N - 1;
+            int temp;
+            for (int j  = 0; j < (M+N)/2; j++)
+            {
+                temp = array[0];
+                for (int i = 0; i < N+M -1; i++)
+                {
+                    array[i] = array[i + 1];
+                }
+                array[k] = temp;
+                
+            }
+
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                lbl_goodArray.Content += $" {array[i]}";
+            }
         }
     }
 }

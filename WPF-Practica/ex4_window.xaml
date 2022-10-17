@@ -5,10 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Practica"
         mc:Ignorable="d"
-        Title="ex4_window" Height="450" Width="800">
+        Title="ex4_window" Height="443" Width="800">
     <Grid>
-        <Button x:Name="btn_start" Content="Старт" HorizontalAlignment="Left" Margin="152,346,0,0" VerticalAlignment="Top" Height="37" Width="99" Click="btn_start_Click"/>
-        <Button x:Name="btn_back" Content="Назад" HorizontalAlignment="Left" Margin="544,346,0,0" VerticalAlignment="Top" Height="37" Width="99" Click="btn_back_Click"/>
+        <Button x:Name="btn_start" Content="Старт" HorizontalAlignment="Left" Margin="145,346,0,0" VerticalAlignment="Top" Height="37" Width="99" Click="btn_start_Click"/>
+        <Button x:Name="btn_back" Content="Назад" HorizontalAlignment="Left" Margin="537,346,0,0" VerticalAlignment="Top" Height="37" Width="99" Click="btn_back_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,22,0,0" Text="Дан массив целых чисел x[1]..x[m+n], рассматриваемый как соединение двух его отрезков: начала x[1]..x[m] длины m и конца x[m+1]..x[m+n] длины n. Не используя дополнительных массивов, переставить начало и конец. (Число действий порядка m+n.)" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_N" HorizontalAlignment="Left" Margin="61,87,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="214"/>
+        <TextBox x:Name="tb_M" HorizontalAlignment="Left" Margin="61,138,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="214"/>
+        <Label Content="N:" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="M:" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_1st" Content="" HorizontalAlignment="Left" Margin="515,109,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_nd" Content="" HorizontalAlignment="Left" Margin="515,153,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_fullarray" Content="" HorizontalAlignment="Left" Margin="515,202,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_goodArray" Content="" HorizontalAlignment="Left" Margin="515,266,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
